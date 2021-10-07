@@ -8,7 +8,7 @@ async function handler(req, res) {
     const data = req.body;
 
     const client = await MongoClient.connect(
-      "mongodb+srv://karan:F6ML9Cjhlb7oxKjs@cluster0.3edvr.mongodb.net/meetupsCollection?retryWrites=true&w=majority"
+      "mongodb+srv://anmolzakie:TNyzgtUFLKXgYk8B@cluster0.3edvr.mongodb.net/meetups?retryWrites=true&w=majority"
     );
     const db = client.db();
 
